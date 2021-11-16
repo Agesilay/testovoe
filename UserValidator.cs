@@ -10,6 +10,7 @@ namespace testovoe
     {
         public bool asdf()
         {
+            Console.WriteLine("asdfasd");
             return true;
         }
 
