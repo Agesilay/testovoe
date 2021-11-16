@@ -14,7 +14,7 @@ namespace testovoe
 
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Make test");
             MessageBox.Show("Testing...");
             Console.WriteLine("Test string");
             for (int i = 0; i < N; i++)
