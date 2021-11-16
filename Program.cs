@@ -8,8 +8,15 @@ namespace testovoe
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
+            UserValidator asdf = new UserValidator();
+
+            if (asdf.IsEmailValid("adsf"))
+            {
+                Console.WriteLine("correct");
+            }
             Console.WriteLine("Test string");
             for (int i = 0; i < 10; i++)
             {
