@@ -8,6 +8,12 @@ namespace testovoe
 {
     public class UserValidator
     {
+        public bool isNamesValid(string a, string b)
+        {
+            Console.WriteLine("Names is valid");
+            return true;
+        }
+
         public bool IsEmailValid(string email)
         {
             Console.WriteLine("Email checks");
