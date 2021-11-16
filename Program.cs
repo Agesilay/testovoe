@@ -10,6 +10,7 @@ namespace testovoe
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Test string");
             Console.WriteLine("Hello world!");
         }
     }
