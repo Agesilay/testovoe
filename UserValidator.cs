@@ -8,6 +8,11 @@ namespace testovoe
 {
     public class UserValidator
     {
+        public bool asdf()
+        {
+            return true;
+        }
+
         public bool isNamesValid(string a, string b)
         {
             Console.WriteLine("Names is valid");
